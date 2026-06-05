@@ -17,11 +17,22 @@
 - Update Profile
 - Unsubscibed to the onAuthStateChanged callback
 - Add hardcoded values to the constants file
+- Register TMDB API & get Access Token
+- Get Data from TMDB Now Playing Movies list API
+- create custom hooks 
+- create movieSlice
+- Update store with movies Data
+- Fetch Data for Tariler video 
+- Embeded the youtube Video 
 
 # Features
 
 - Login/Sign Up
   - Sign In /Sign up Form
   - redirect to Browse Page
-
+- Browse (after authentication)
+  - Header
+  - Main Movie
+     - Trailer in Background
+     - Title & Description 
 

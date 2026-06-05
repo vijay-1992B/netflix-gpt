@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import { auth } from "../utils/firebase";
 import { useEffect } from "react";
-import { addUser, removeUser } from "../utils/userSlice";
+import { addUser, removeUser } from "../store/slices/userSlice";
 import { LOGO_URL } from "../utils/constants";
 
 const Header = () => {
@@ -42,7 +42,7 @@ const Header = () => {
   }, []);
 
   return (
-    <div className=" absolute w-screen px-8 py-2 bg-linear-to-b from-black z-10 flex justify-between items-center">
+    <div className=" absolute w-full px-8 py-2 bg-linear-to-b from-black z-10 flex justify-between items-center">
       <img className="w-44" src={LOGO_URL} alt="logo" />
       {user && (
         <div className="flex">
@@ -51,7 +51,7 @@ const Header = () => {
             src={user.photoURL}
             alt="profile-img"
           />
-          <button className="cursor-pointer" onClick={handleSignout}>
+          <button className="cursor-pointer text-white" onClick={handleSignout}>
             (Signout)
           </button>
         </div>

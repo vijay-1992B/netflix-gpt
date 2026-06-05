@@ -5,3 +5,12 @@ export const BACKGROUND_IMAGE =
 
 export const AVATAR_URL =
   "https://media.licdn.com/dms/image/v2/D5603AQEXo4U9DWiyOQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1727761184268?e=1781740800&v=beta&t=pjM9Y9E1qXSCGDKwa9alOTbr_p3tEPLz-iXnI4DO5LY";
+
+export const API_OPTIONS = {
+  method: "GET",
+  headers: {
+    accept: "application/json",
+    Authorization:
+      "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIyMDQ4ZjY3OTEwZDkyODY1ZWI3MTQ2NjQxNjQxM2I5MiIsIm5iZiI6MTcyNjE0MzU3Ny45NjYsInN1YiI6IjY2ZTJkYzU5ZjQ2N2MyYWQ2MmY4ZmI3ZiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.FGRariYoK7nFhYkyAeQ3-v2HzFxay3pLAjk7-wk9Qrc",
+  },
+};

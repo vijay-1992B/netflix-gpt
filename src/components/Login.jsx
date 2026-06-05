@@ -9,7 +9,7 @@ import {
 } from "firebase/auth";
 import { useNavigate } from "react-router-dom";
 import { useDispatch } from "react-redux";
-import { addUser } from "../utils/userSlice";
+import { addUser } from "../store/slices/userSlice";
 import { AVATAR_URL, BACKGROUND_IMAGE } from "../utils/constants";
 
 const Login = () => {
