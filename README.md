@@ -28,6 +28,8 @@
 - Build Movie List
 - Build Movie Card
 - TMDB Image CDN URL
+- Create GPT Search Page
+- GPT Search Bar
 
 # Features
 
@@ -39,3 +41,4 @@
   - Main Movie
     - Trailer in Background
     - Title & Description
+- Multilanguage Feature
