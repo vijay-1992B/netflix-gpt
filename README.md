@@ -19,11 +19,15 @@
 - Add hardcoded values to the constants file
 - Register TMDB API & get Access Token
 - Get Data from TMDB Now Playing Movies list API
-- create custom hooks 
+- create custom hooks
 - create movieSlice
 - Update store with movies Data
-- Fetch Data for Tariler video 
-- Embeded the youtube Video 
+- Fetch Data for Tariler video
+- Embeded the youtube Video
+- Build Secondary Component
+- Build Movie List
+- Build Movie Card
+- TMDB Image CDN URL
 
 # Features
 
@@ -33,6 +37,5 @@
 - Browse (after authentication)
   - Header
   - Main Movie
-     - Trailer in Background
-     - Title & Description 
-
+    - Trailer in Background
+    - Title & Description
