@@ -30,6 +30,12 @@
 - TMDB Image CDN URL
 - Create GPT Search Page
 - GPT Search Bar
+- Get Gemini Api Key
+- Get suggestions from gemini API
+- fetched MoviesSuggestions from TMDB
+- Resused Movie List component to make movie suggestion container
+- Added .env file
+- Adding .env file to gitignore
 
 # Features
 
